@@ -1,0 +1,15 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #fafafa; color: #333; }
+.container { width: 90%; max-width: 1200px; margin: auto; }
+.header { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; background: #007bff; color: #fff; }
+.header .logo { height: 40px; }
+.header nav ul { list-style: none; display: flex; gap: 20px; }
+.header nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+.hero { text-align: center; padding: 100px 20px; background: #007bff; color: #fff; }
+.btn { padding: 12px 25px; background: #ffcc00; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; }
+.services-preview .cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+.card { background: #f1f1f1; padding: 20px; border-radius: 10px; flex: 1; text-align: center; margin: 10px; }
+.contact-section form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
+.contact-section input, .contact-section textarea { padding: 10px; font-size: 16px; border: 1px solid #ddd; border-radius: 5px; }
+.contact-section button { padding: 12px; background-color: #007bff; color: #fff; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; }
+.map { margin-top: 40px; }
+.footer { background: #007bff; color: #fff; text-align: center; padding: 20px 0; margin-top: 50px; }
